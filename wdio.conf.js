@@ -10,7 +10,8 @@ exports.config = {
     browserName: 'chrome',
     'goog:chromeOptions': {
       args: [
-        '--headless'
+        '--headless',
+        '-window-size=1200,800'
       ]
     }
   }],
